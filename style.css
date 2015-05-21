@@ -1,0 +1,29 @@
+.wrapper{
+	border: 2px solid red;
+	width: auto;
+	height: 550px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#grid{
+	width: 500px;
+	height: 200px;
+}
+
+.gridBox{
+	border: 1px dotted black;
+	width: 306px;
+	height: 130px;
+	display: inline-block;
+}
+
+.on{
+	background-color: yellow;
+
+}
+
+.off{
+	background-color: black;
+
+}
