@@ -1,29 +1,37 @@
+.head{
+	text-align: center;
+}
+
+#button{
+	width: 150px;
+	height: 30px;
+}
 .wrapper{
 	border: 2px solid red;
-	width: auto;
-	height: 550px;
+	width: 1240px;
+	height: 530px;
 	text-align: center;
 	padding-top: 10px;
 }
 
-#grid{
-	width: 500px;
-	height: 200px;
-}
-
 .gridBox{
-	border: 1px dotted black;
-	width: 306px;
-	height: 130px;
+	border: 1px solid black;
+	width: 20px;
+	height: 20px;
 	display: inline-block;
+	margin-bottom: -5px;
 }
 
 .on{
-	background-color: yellow;
+	background-color: #f0f0f0;
 
 }
 
 .off{
-	background-color: black;
+	background-color: #566;
 
+}
+
+.cleared{
+	background-color: #FFFFFF;
 }
