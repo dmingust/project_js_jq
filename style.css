@@ -1,18 +1,42 @@
-.head{
-	text-align: center;
+body{
+	background-color: #5F9EA0
 }
 
-#button{
+.head{
+	text-align: center;
+	margin-bottom: 5px;
+}
+
+.button{
 	width: 150px;
-	height: 30px;
+	height: 20px;
+}
+
+.sketchWrapper{
+	position: relative;
+	width: 620px;
+	height: 550px;
+	background-color: red;
+	border-radius: 25px;
+	margin: auto;
+	box-shadow: 10px 10px 2px rgba(0,0,0,0.5);
+
 }
 .sketchpad{
-	border: 1px solid red;
+	position: absolute;
+	top: 25px;
+	left: 60px;
 	width: 500px;
 	height: 500px;	
-	margin: auto;
 	overflow: hidden;
 	background-color: lightgray;
+}
+
+#logo{
+	text-align: center;
+	color: white;
+	font-family: Impact;
+	font-size: 20px;
 }
 
 .gridBox{
@@ -29,4 +53,24 @@
 
 .cleared{
 	background-color: #FFFFFF;
+}
+
+.knob {
+	height: 40px;
+	width: 40px;
+	border-radius: 40px;
+	background-color: white;
+	box-shadow: 7px 7px 2px rgba(0,0,0,0.5);
+}
+
+#leftknob {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+
+#rightknob {
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
 }
