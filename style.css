@@ -6,30 +6,25 @@
 	width: 150px;
 	height: 30px;
 }
-.wrapper{
-	border: 2px solid red;
-	width: 1240px;
-	height: 530px;
-	text-align: center;
-	padding-top: 10px;
+.sketchpad{
+	border: 1px solid red;
+	width: 500px;
+	height: 500px;	
+	margin: auto;
+	overflow: hidden;
+	background-color: lightgray;
 }
 
 .gridBox{
-	border: 1px solid black;
-	width: 20px;
-	height: 20px;
-	display: inline-block;
-	margin-bottom: -5px;
+	float: left;
 }
 
 .on{
 	background-color: #f0f0f0;
-
 }
 
 .off{
 	background-color: #566;
-
 }
 
 .cleared{
